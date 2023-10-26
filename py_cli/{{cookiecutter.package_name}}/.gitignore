@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# History
+.history
+
+# Distribution / packaging
+.Python
+env/
+.venv
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+
+# VS Code
+.vscode/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+
+# pytest cache
+.pytest_cache/
+
+
+# Documentation
+docs/{{cookiecutter.package_name}}/
+docs/{{cookiecutter.package_name}}.html
+docs/index.html
+docs/search.json
