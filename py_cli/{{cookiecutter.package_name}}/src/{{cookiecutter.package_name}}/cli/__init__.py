@@ -1,13 +1,17 @@
 
 import typer
+from pprint import pprint
+from dynaconf import settings
+
 import {{cookiecutter.package_name}}.cli.items
 import {{cookiecutter.package_name}}.cli.users
 
 cli = typer.Typer()
 
+
 @cli.command()
-def hello(name: str):
-    print(f"Hello {name}")
+def showconfig():
+    pprint(settings.as_dict())
 
 
 @cli.command()

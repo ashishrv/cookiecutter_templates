@@ -11,6 +11,7 @@ packages = [{include = "{{cookiecutter.package_name}}", from = "src"}]
 
 python = "{{cookiecutter.compatible_python_versions}}"
 typer = {extras = ["all"], version = "^0.9.0"}
+dynaconf = "^3.2.3"
 
 [tool.poetry.group.dev.dependencies]
 
