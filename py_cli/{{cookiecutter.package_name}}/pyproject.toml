@@ -10,6 +10,7 @@ packages = [{include = "{{cookiecutter.package_name}}", from = "src"}]
 [tool.poetry.dependencies]
 
 python = "{{cookiecutter.compatible_python_versions}}"
+typer = {extras = ["all"], version = "^0.9.0"}
 
 [tool.poetry.group.dev.dependencies]
 
